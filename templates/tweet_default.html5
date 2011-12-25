@@ -1,0 +1,5 @@
+<div class="item">
+	<div class="image_container"><a href="<?php echo $this->userLink; ?>"><img src="<?php echo $this->profile_image_url; ?>" /></a></div>
+	<div class="username"><a href="<?php echo $this->userLink; ?>">@<?php echo $this->from_user; ?></a></div>
+	<div class="text"><a href="<?php echo $this->statusLink; ?>"><?php echo $this->text; ?></a></div>
+</div>
